@@ -1,0 +1,201 @@
+.finger-paint-regular {
+  font-family: "Finger Paint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title1 {
+  color: #d3f5db;
+  background-color: #72d4a5;
+  font-size: 25px;
+  text-align: center;
+  width:75%;
+  display: flex;
+  justify-content: center;
+  align-self:center;
+  margin-inline: auto;
+}
+
+.title2 {
+  color: #b8fcdc;
+  background-color: #0e755b;
+  font-size: 18px;
+  text-align: center;
+  width:75%;
+  padding:0px;
+  display: flex;
+  justify-content: center;
+  align-self:center;
+  margin-inline: auto;
+}
+
+.title3 {
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  width:75%;
+  padding:0px;
+  display: flex;
+  justify-content: center;
+  align-self:center;
+  margin-inline: auto;
+  transition:1s;
+}
+
+.title3:hover {
+  color: #ffffff;
+  font-size: 30px;
+  background-color: #000000;
+  transition:0.25s;
+  font-family: "Finger Paint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 20px;
+  gap: 20px;
+}
+
+.ranking {
+  background-color: #f5fcf7;
+  border-style: solid;
+  border-color: #baf5c6;
+  border-width: 5px;
+  padding: 15px;
+  color: #064f3d; 
+  width: 30%;
+  transition: 0.5s ease-out;
+  display: flex;
+  flex-direction:column;
+  align-items: center;     
+}
+
+.ranking:hover{
+  border-width: 15px;
+  border-color: #baf5c6;
+  color: #064f3d; 
+  background-color: #ebfff8;
+  transition: 0.25s ease-out;
+  padding: 30px;
+}
+
+.ranking1 {
+  background-color: #ffffe3;
+  border-style: solid;
+  border-color: #fcfccf;
+  border-width: 5px;
+  padding: 15px;
+  color: #300101; 
+  width: 71%;
+  transition: 0.5s ease-out;
+  display: flex;
+  flex-direction:column;
+  align-items: center;   
+}
+
+.ranking1:hover{
+  border-width: 15px;
+  border-color: #f0f08b;
+  color: #300101; 
+  background-color: #fff3cf;
+  transition: 0.25s ease-out;
+}
+
+.details {
+  font-family: "Finger Paint", sans-serif;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  transition: 0.25s ease-out;
+}
+
+.details p {
+  font-size:10px;
+  transition: 0.25s ease-out
+}
+
+.details img {
+  width:20%;
+  transition: 0.25s ease-out
+}
+
+.details:hover{
+  background-color: #bdffe2;
+  transition: 0.25s ease-in;
+}
+
+.details:hover img{
+  width: 100%;
+  background-color: #87fac8;
+  transition: 0.25s ease-out;
+}
+
+.details:hover p{
+  font-size:20px;
+  transition: 0.25s ease-out;
+}
+
+.details1 {
+  font-family: "Finger Paint", sans-serif;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  transition: 0.25s ease-out;
+}
+
+.details1 p {
+  font-size:10px;
+  transition: 0.25s ease-out
+}
+
+.details1 img {
+  width:20%;
+  transition: 0.25s ease-out
+}
+
+.details1:hover{
+  background-color: #ffed75;
+  transition: 0.25s ease-in;
+}
+
+.details1:hover img{
+  width: 100%;
+  background-color: #ffed75;
+  transition: 0.25s ease-out;
+}
+
+.details1:hover p{
+  font-size:20px;
+  transition: 0.25s ease-out;
+}
+
+a:link{
+  color: #0000ff;
+  font-size: 10px;
+  transition: 1s;
+}
+
+a:visited{
+  color: #9500ff;
+  transition: 5s;
+}
+
+a:hover{
+  color: #ffffff;
+  background-color: #0000ff;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+a:active{
+  color: #ffffff;
+  background-color: #0000ff;
+  font-size: 25px;
+  font-weight: bold;
+  transition: 1.5s;
+}
